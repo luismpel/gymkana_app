@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/menu">
+
+    <item
+        android:id="@+id/uncompleted_tasks_page"
+        android:enabled="true"
+        android:icon="@drawable/focus_icon"
+        android:title="@string/menu_current_btn" />
+
+    <item
+        android:id="@+id/completed_challenges_page"
+        android:enabled="true"
+        android:icon="@drawable/completed_icon"
+        android:title="@string/menu_completed_btn" />
+</menu>

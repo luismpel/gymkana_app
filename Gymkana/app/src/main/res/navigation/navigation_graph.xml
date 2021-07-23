@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation_graph"
+    app:startDestination="@id/currentChallenge">
+
+    <fragment
+        android:id="@+id/currentChallenge"
+        android:name="com.example.gymkana.CurrentChallenge"
+        android:label="CurrentChallenge" >
+        <action
+            android:id="@+id/action_currentChallenge_to_completedChallenge"
+            app:destination="@id/completedChallenge" />
+    </fragment>
+    <fragment
+        android:id="@+id/completedChallenge"
+        android:name="com.example.gymkana.CompletedChallenge"
+        android:label="CompletedChallenge" >
+        <action
+            android:id="@+id/action_completedChallenge_to_currentChallenge"
+            app:destination="@id/currentChallenge" />
+    </fragment>
+</navigation>

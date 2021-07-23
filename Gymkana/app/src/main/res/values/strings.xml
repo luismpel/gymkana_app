@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Gymkana</string>
+    <string name="secret_code_title">Clave secreta</string>
+    <string name="code_text">****</string>
+    <string name="final_challenge_title">¡Combate final!</string>
+    <string name="final_challenge_desc">¡Enhorabuena!\nHabéis llegado a la prueba final. Pero todavía no habéis acabado.\nPara poder descifrar dónde se encuentran vuestros amigos, tendréis que usar el poder de vuestras medallas merecidamente ganadas. ¡Buena suerte!</string>
+    <string name="icon_content_desc">Icono representativo de la prueba</string>
+    <string name="completed_icon_desc">Prueba completada</string>
+    <string name="Demo_completed_text">Introduce el código 1234\npara completar la primera prueba.</string>
+    <string name="solve_btn_text">\tResolver</string>
+    <string name="menu_current_btn">Prueba actual</string>
+    <string name="menu_completed_btn">Completadas</string>
+</resources>
